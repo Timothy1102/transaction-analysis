@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.32.3"
+loguru = "^0.7.2"
 
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+types-requests = "^2.32.0.20240914"
+ruff = "^0.6.5"
 
 [build-system]
 requires = ["poetry-core"]
